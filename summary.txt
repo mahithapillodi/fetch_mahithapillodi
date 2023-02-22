@@ -1,0 +1,37 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+A: The coding exercise was implemented in Java, a programming language that has been widely adopted in the industry and is well-suited for enterprise and web development. It has an extensive standard library that provides a range of features, making it a powerful language for implementing complex applications. In this case, the language was chosen because it has robust support for file input/output, which was necessary for reading the input file, as well as data manipulation, which was required to process the input data.
+
+To read the input file, two standard Java libraries were used: java.io.BufferedReader and java.io.FileReader. These libraries are widely used in Java programming and provide efficient ways of reading files. BufferedReader provides a more efficient and faster way of reading files than using FileReader alone, making it a good choice for handling large input files.
+
+For working with dates and times, the java.time.Instant library was used. This library provides a range of useful methods for working with dates and times, including parsing and formatting, timezone conversion, and arithmetic operations on dates and times.
+
+To manipulate data, several standard Java collections libraries were used. The java.util.List interface was used to create an ordered collection of elements, java.util.Map and java.util.HashMap were used for creating a key-value store to keep track of data, and java.util.Comparator was used to compare elements. Finally, java.util.ArrayList was used to store intermediate results.
+
+2. What are the advantages and disadvantages of your solution?
+
+A: Advantages:
+1. One of the advantages of this solution is that it reads transactions from a CSV file and spends points according to the specified rules, returning the remaining balances for each payer. This allows for a clear and automated way of processing transactions, making it easy to keep track of point balances for different payers.
+
+2. Another advantage is that the code is easy to read and understand, with clear variable names and comments that help to explain the purpose of each section of code. This makes it easier for other developers to modify or extend the code in the future.
+
+3. The use of standard libraries in the solution is also an advantage. These libraries are widely used and well-documented, which makes it easier to find examples, tutorials, and answers to common questions.
+
+4. In addition, the code handles errors and invalid input, such as incorrect command-line arguments and malformed CSV lines. This helps to prevent the code from crashing or producing incorrect results due to invalid input.
+
+Disadvantages:
+1. One of the main disadvantages of the solution is that it assumes that the CSV file has the correct format and does not perform additional validation on the input. This means that if the input is not in the expected format, the code may produce unexpected or incorrect results.
+
+2. Another disadvantage is that the code does not account for certain edge cases, such as when there are not enough points to spend or when all transactions are from a single payer. This could lead to incorrect point balances or errors in the output.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+During my time at JP Morgan, one of the coding projects that I enjoyed the most was developing a "Credit Risk Application for clients and facilities". This was a Kafka-based microservice that updated client data in real-time asynchronously. I was responsible for the entire application development process, from design to deployment of the final product.
+
+One of the biggest challenges I faced during this project was working with a firm-specific framework that had limited documentation. This required me to think critically about the development process and seek help from the framework's top internal engineers. However, I was determined to overcome this obstacle, and I put in extra effort to learn and understand the framework. I was eventually able to incorporate it into our project and deliver it on schedule.
+
+In addition to the challenge of the framework, this project also pushed me out of my comfort zone by requiring me to learn and apply new technologies such as Kafka. Despite this, I found coding with Java, a language I love for its straightforward syntax, to be a pleasure. I wrote the code by myself and the knowledge I gained while researching was invaluable.
+
+Overall, this project was my favorite because it taught me a lot and gave me the confidence to handle any challenge. Despite facing significant obstacles, I was able to deliver a high-quality product, which was both rewarding and motivating. I am proud of my work on this project and look forward to taking on new challenges in the future.
+
+
+
+
